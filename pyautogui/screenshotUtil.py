@@ -26,6 +26,7 @@ except:
     pass
 
 def locateAll(needleImage, haystackImage, grayscale=False, limit=None):
+    print('Test: calling locateAll');
     needleFileObj = None
     haystackFileObj = None
     if isinstance(needleImage, str):
